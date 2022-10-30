@@ -1,0 +1,60 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <cctype>
+using namespace std;
+
+// Function Prototypes
+void getUserInput(string&);
+bool checkMethod1(string&);
+bool checkMethod2(string&);
+void displayPalindrom(string&, bool);
+
+int main() { 
+    string user_input {};
+    getUserInput(user_input);
+    displayPalindrom(user_input, checkMethod1(user_input));
+
+    return 0;
+}
+
+void getUserInput(string& s) {
+    cout << "Enter a Palindrome: ";
+    getline(cin, s);
+
+    // Remove Spaces
+    for (string::iterator it = s.begin(); it != s.end(); it++) {
+         if (*it == ' ')
+             s.erase(it);
+    }
+
+    cout << "\n";
+    cout << "You entered: " << s << endl;
+}
+
+bool checkMethod1(string& s) {
+    string temp {};
+    string lower {};
+
+    // Convert to Lowercase
+    for (string::iterator it = s.begin(); it != s.end(); it++) {
+        lower.push_back(tolower(*it));
+    }
+cout << lower;    // Iterate in Reverse Order
+    for (string::iterator it = lower.end(); it != lower.begin(); it--) {
+        temp.push_back(*it);
+    }
+
+    // Compare
+    if (!equal(lower.begin(), lower.end(), temp.begin()))
+        return false;
+    else
+        return true;
+}
+
+void displayPalindrom(string& s, bool flag) {
+    if (flag)
+        cout << s << " is a Palindrom!" << endl;
+    else
+        cout << "Not a Palindrom!" << endl;
+}
