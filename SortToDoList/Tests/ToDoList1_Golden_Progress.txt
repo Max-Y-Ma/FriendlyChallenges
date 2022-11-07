@@ -1,0 +1,7 @@
+Name                  Date        Priorty     Category    Progress
+Do Max's Challenge  11/27/2022       1        Homework       99
+Lunch w/ Jason      12/7/2022        2        Event          65
+Buy Cheese Pizza    11/7/2022        5        Shopping       42
+Work on Sunday      11/9/2022        1        Work           40
+Big Vball Game      11/14/2022       4        Event          20
+Talk to Rohit       11/30/2022       3        Social         0

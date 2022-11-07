@@ -1,0 +1,55 @@
+Welcome to The Challenge!
+
+In this challenge, you will need to sort a TO DO List by the following properties: Priority, Category, and Progress
+
+Priority: Highest->Lowest (1 is the higest...5 is the lowest)
+Category: Alphabetical
+Progress: Highest->Lowest (100% is the highest...0% is the lowest)
+
+You must write two scripts over the course of a Two Week Timeline:
+
+WEEK1/WEEK2
+"SortToDoList.sh" should sort a given file by a specific property. The file "SortToDoList.sh" should take in two parameters: "File Name" and "Property" It should output the sorted To Do List in a file. 
+
+Additionally, try to implement some features to protect against malicious attacks. Max will try to exploit your scripts. Ex: Trying to organize by something other than Category, Priority, or Progress. Giving invalid files names.
+
+WEEK2
+"test.sh" should take two parameters: "Golden_File" and "Your_File" It should compare the two to tell you whether you completed the challenge or not!
+
+The "Challenge" directory should contain your two scripts and output files
+
+The "Tests" directory contains the To Do Lists and the Golden Outputs
+
+The "Solution" directory contains my solution. Do not look at this JASON!
+
+------------------------------------------------------------------------
+Some Helpful Information
+------------------------------------------------------------------------
+
+Running Scripts: A Script is just a series of shell commands that can be interpreted sequentially by the shell interpreter. In this case, the Bourne-Again Shell or BASH. 
+
+You can write the script in any IDE or Text Editor you want!
+
+Scripts must begin with the SHEBANG, which should be "#!/bin/bash" normally.
+
+Scripts must be given the +x permission in order to execute. Check this by running:
+>: chmod +x ./"script_name"
+
+Passing environmental parameters to scripts can be done by including extra stuff at the end of a script call:
+>: ./"script_name" "parameter1" "parameter2"
+>: ./SortToDoList.sh ../Tests/ToDoList1 Category
+>: ./SortToDoList.sh ../Tests/ToDoList2 Priority
+
+------------------------------------------------------------------------
+
+Running the Test Cases: In the "Test" directory, you are given two To Do List as test cases. There is also a set of GOLDEN SOLUTIONS. These are the correct solution to each of the test cases. 
+
+Running your "test.sh" script is easy:
+>: ./test.sh "Your_solution_file_name" "Golden_solution_file_name"
+
+------------------------------------------------------------------------
+
+Hints for the Challenge:
+> BASH already has a built in command to sort a file: sort
+The following command might help you understand this better
+>: sort --help 

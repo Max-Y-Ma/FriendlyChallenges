@@ -1,0 +1,16 @@
+Name                  Date        Priorty     Category    Progress
+BIO 330 Homework    11/7/2022        1        Homework       99
+CS 225 Homework     11/10/2022       5        Homework       87
+ECON 210 Lecture    11/8/2022        2        Lecture        65
+CS 257 Homework     11/9/2022        4        Homework       65
+CS 257 Pres.        11/13/2022       5        Presentation   45
+ENG 101 Tutorial    11/7/2022        5        Tutorial       42
+PHYS 101 Homework   11/7/2022        1        Homework       40
+MATH 224 Lecture    11/9/2022        3        Lecture        40
+CS 225 Lecture      11/10/2022       2        Lecture        38
+CS 257 Discussion   11/12/2022       3        Discussion     34
+MATH 286 Homework   11/7/2022        1        Homework       30
+CS 225 Project      11/11/2022       2        Project        25
+BIO 330 Lecture     11/8/2022        4        Lecture        20
+MATH 286 Tutorial   11/6/2022        4        Tutorial       0
+MATH 224 Homework   11/7/2022        3        Homework       0
