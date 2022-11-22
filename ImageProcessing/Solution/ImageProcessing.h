@@ -72,14 +72,12 @@ struct {
 // Function Prototypes
 void printNum(int n);
 void processImage(char* file);
-void processSOI(std::vector<char>& data, int* position, std::ofstream& outfile);
-void processApp(std::vector<char>& data, int* position, std::ofstream& outfile);
-void processQuantTable(std::vector<char>& data, int* position, std::ofstream& outfile);
-void processSOF(std::vector<char>& data, int* position, std::ofstream& outfile);
-void processHTable(std::vector<char>& data, int* position, std::ofstream& outfile);
-void processSOS(std::vector<char>& data, int* position, std::ofstream& outfile);
-uint8_t read_int8(std::vector<char>& data, int* position);
-uint16_t read_int16(std::vector<char>& data, int* position);
-uint32_t read_int32(std::vector<char>& data, int* position);
+void processSOI(std::vector<u_int8_t>& data, int* position, std::ofstream& outfile);
+void processApp(std::vector<u_int8_t>& data, int* position, std::ofstream& outfile);
+void processQuantTable(std::vector<u_int8_t>& data, int* position, std::ofstream& outfile);
+void processSOF(std::vector<u_int8_t>& data, int* position, std::ofstream& outfile);
+void processHTable(std::vector<u_int8_t>& data, int* position, std::ofstream& outfile);
+void processSOS(std::vector<u_int8_t>& data, int* position, std::ofstream& outfile);
+uint8_t read_int8(std::vector<u_int8_t>& data, int* position);
 
 #endif
