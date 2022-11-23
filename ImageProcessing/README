@@ -1,2 +1,21 @@
-https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/
+This Challenge is more a informational Challenge and it will be LIVE!
+
+Before the Challenge, Watch these Videos and view website:
+YouTube Three Part Series:
+1.) https://www.youtube.com/watch?v=n_uNPbdenRs
+2.) https://www.youtube.com/watch?v=Q2aEzeMDHMA&t=3s
+3.) https://www.youtube.com/watch?v=yBX8GFqt6GA
+Website:
+1.) https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/
+
+Task: Read the existing C++ code to modify the given JPG File.
+Create a Black and White Image of the Original.
+The image can be found in Images/Valorant.jpg
+
+Tools:
+Use VMWARE and Ubuntu Linux Distribution (Look up a Tutorial On How to Do This)
+Once you have a Linux VM using VMWARE, clone the Git Repository
+
+Run this Command:
+>./ImageProcessing.sh ../Images/Valorant.jpg
 

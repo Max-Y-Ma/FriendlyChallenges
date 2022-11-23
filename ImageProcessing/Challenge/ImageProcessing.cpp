@@ -97,13 +97,19 @@ void processQuantTable(std::vector<u_int8_t>& data, int* position, std::ofstream
 
     uint8_t Chrominance = 10;
     uint8_t Luminance = 5;
-    // Output New Quantable to JPG
+    // Output New Quantization Table to JPG
     for (int i {0}; i < QTABLE_SIZE; i++) {
         for (int j {0}; j < QTABLE_SIZE; j++) {
-            if (qtable.destination)        // Adjust Chrominance
-                outfile << (Chrominance);
-            else        // Adjust Luminance
-                outfile << (Luminance);
+            /*ADD YOUR CODE HERE */
+            /*ADD YOUR CODE HERE */
+            /*ADD YOUR CODE HERE */
+            /*ADD YOUR CODE HERE */
+            /*ADD YOUR CODE HERE */
+            /*ADD YOUR CODE HERE */
+            /*ADD YOUR CODE HERE */
+            /*ADD YOUR CODE HERE */
+            /*ADD YOUR CODE HERE */
+            
         }
     }
 }

@@ -1,7 +1,0 @@
-YouTube Three Part Series:
-1.) https://www.youtube.com/watch?v=n_uNPbdenRs
-2.) https://www.youtube.com/watch?v=Q2aEzeMDHMA&t=3s
-3.) https://www.youtube.com/watch?v=yBX8GFqt6GA
-
-Website:
-1.) https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/
