@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+if ( "Priority" == $2)
+then
+    sort -k 3 $1
+
+elif ( $2 == "Category")
+then
+    sort -k 4 $1
+
+elif ( $2 == "Progress")
+then
+    sort -k 5 $1
+fi
+
+
