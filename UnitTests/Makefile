@@ -2,6 +2,8 @@
 # Usage:
 # make        # compile all binary
 # make clean  # remove ALL binaries and objects
+#
+#This is Jason! Just stopping by and saying HI!
 
 .PHONY = all run clean
 CC = g++
