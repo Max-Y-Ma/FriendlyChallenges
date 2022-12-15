@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Compiling Palindrome.cpp..."
-g++ -Wall -Werror -std=c++11 Palindrom.cpp -o Palindrom
+g++ -g -Wall -Werror -std=c++11 Palindrom.cpp -o Palindrom.out
 if [ $? -ne 0 ]
 then
     echo "Compile Failed!"
@@ -10,5 +10,5 @@ else
 fi
 echo "Running Palindrome.cpp..."
 echo ""
-./Palindrom
+./Palindrom.out
 exit 0
